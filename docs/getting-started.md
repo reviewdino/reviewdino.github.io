@@ -19,7 +19,7 @@ To get access to notifications management you will need to [Sign In with Github]
 Once you're signed in, you should see the list of organisations you have access to, select the one you are interested in and click `Add new notification button`.
 
 You will be presented with a good old JS file with a bunch of placeholders which you need to replace onto desirable data.
-For the fields description see [Notification Schema docs](./docs/notification-schema)
+For the fields description see [Notification Schema docs](./notification-schema)
 
 If something that you insert does not validate against the notification schema you will see an error, just make an appropriate fix.
 
@@ -27,4 +27,4 @@ Once you're done click `Check and save` button, you'll be presented with initial
 
 You're all set, now Review Dino will send you friendly reminders on all outstanding pull requests so you don't have to worry about hopping between all you repositories.
 
-If something goes wrong, check the [FAQ](./docs/faq) section or just [Contact us](./docs/contacts), and we'll try to reach out as quick as possible.
+If something goes wrong, check the [FAQ](./faq) section or just [Contact us](./contacts), and we'll try to reach out as quick as possible.
