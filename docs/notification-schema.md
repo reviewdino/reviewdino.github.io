@@ -6,7 +6,7 @@ Typical config file looks like the following:
   team: 'Exploding kittens',
   slack: {
     channel: '#kittens',
-    url: 'https://hooks.slack.com/services/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'
+    workspace: 'coolworkspace'
   },
   schedule: [
     {
@@ -19,9 +19,9 @@ Typical config file looks like the following:
   ],
   timeZone: 'Australia/Sydney',
   repos: {
-    'kittens-orgs': [
-      'bombs-ui',
-      'pussy-api'
+    'kittens-org': [
+      'hairy-potato-cat',
+      'tacocat'
     ]
   }
 }
@@ -32,9 +32,7 @@ This is your unique team/notification name within your organisation, make sure y
 Could be any string.
 
 ## slack
-- url: You will need to setup Slack Incoming Webhook url or use one that you already have.
-Typically, teams within one organisation share the same url for all notifications.
-Please reference [Slack documentation](https://get.slack.help/hc/en-us/articles/115005265063-Incoming-WebHooks-for-Slack) on hooks.
+- workapce: Name of your slack workspace.
 - channel: Name of the slack channel to which you would like to send your notifications starting with a `#`
 
 ## schedule
